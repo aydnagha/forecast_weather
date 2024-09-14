@@ -4,7 +4,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, TensorDataset
 import pandas as pd
 import numpy as np
-from data_setting import data_cleaning, dataset
+from data_setting import data_cleaning
 
 X_train, X_test, y_train, y_test = data_cleaning()
 
